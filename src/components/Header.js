@@ -4,7 +4,7 @@ import { Link, useLocation } from "react-router-dom";
 import { useToasts } from "react-toast-notifications";
 import cookie from "react-cookies";
 
-import Logo from "../assets/images/rugr_white_logo.svg";
+import Logo from "../assets/images/excro-logo.svg";
 import { userConstants } from "../constants/ActionTypes";
 import ApiGateway from "../DataServices/DataServices";
 import { getCookie } from "../DataServices/Utils";
@@ -121,7 +121,9 @@ const Header = () => {
       {loading && <Loader />}
       <Link to="/dashboard">
         <div className="header_left_part">
-          <img src={Logo} alt="logo" style={{ height: "58px" }} />
+          <div className="logo_wrapper">
+            <img src={Logo} alt="logo" className="logo_img" />
+          </div>
         </div>
       </Link>
       <div className="header_right_part">

@@ -695,7 +695,7 @@ const ViewInvoice = () => {
                 <div style={{ textAlign: "center" }}>
                   <div>
                     <span style={{ fontWeight: "500" }}>Contact :</span>
-                    help@rugr.com
+                    help@excro.com
                   </div>
                   <div style={{ fontSize: "14px", marginTop: "6px" }}>
                     <span style={{ fontWeight: "600" }}>Note :</span> This is a

@@ -6,18 +6,18 @@
   /* #08f1f9 light*/
   /* #000612 deep dark*/
   --panelBodyBg: #f2f3f4;
-  --bgColor: #03624c;
+  --bgColor: #0e2ac0;
   --pagebgColor: linear-gradient(
     180deg,
     rgba(0, 19, 59, 1) 25%,
     rgba(8, 241, 249, 1) 100%
   );
-  --primaryBtn: #03624c;
-  --submit-Btn: #5f752d;
+  --primaryBtn: #0e2ac0;
+  --submit-Btn: #314df0;
   --btnTextWhite: #ffff;
   --btnTextBlack: #000000;
   --headeractivebtnBg: #c9fac6;
-  --headerbtnBg: #def8ec;
+  --headerbtnBg: #cde7f2;
   --disabledInputBg: #efefef;
   --whiteBg: #ffff;
   --payin-payout-graph: #eaf4ee;
@@ -3170,13 +3170,13 @@ footer {
 }
 .eye img {
   position: absolute;
-  top: 224px;
+  top: 293px;
   height: 15px;
   right: 42px;
 }
 .otp_eye img {
   position: absolute;
-  top: 148px;
+  top: 217px;
   height: 15px;
   right: 42px;
 }
@@ -4655,7 +4655,7 @@ footer {
 }
 
 .card-header {
-  background: linear-gradient(#03624c);
+  background: linear-gradient(#0e2ac0);
   color: white;
   padding: 1.5rem;
   border: none;
@@ -5207,4 +5207,20 @@ textarea::-ms-placeholder {
 .status-btn {
   border: none;
   cursor: pointer;
+}
+.logo_wrapper {
+  background: #ffffff;
+  padding: 6px 12px;
+  border-radius: 6px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.logo_img {
+  height: 30px;
+}
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

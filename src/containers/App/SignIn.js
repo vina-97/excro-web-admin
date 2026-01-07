@@ -14,6 +14,7 @@ import Condition from "./Condition";
 import { Redirect, Route, Switch, BrowserRouter } from "react-router-dom";
 import CloseEye from "../../assets/images/eye_close_icon.svg";
 import OpenEye from "../../assets/images/eye_icon.svg";
+import Logo from "../../assets/images/excro-logo.svg";
 
 var isLogin = Condition();
 
@@ -269,6 +270,9 @@ const SignIn = (props) => {
         <div className="login_wrapper">
           <div className="center_tab ">
             <div className="center_login p-b-30">
+              <div className="flex-center mb-10">
+                <img src={Logo} alt="logo" style={{ height: "58px" }} />
+              </div>
               {showScreen == "login" ? (
                 <>
                   <div className="login_title">Admin Login</div>
