@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^12.8.3",
     "apexcharts": "^3.27.1",
     "axios": "^0.21.1",
+    "date-fns": "^2.29.3",
     "iput": "^2.0.1",
     "lodash": "^4.17.21",
     "lucide-react": "^0.544.0",
