@@ -397,6 +397,7 @@ const EntityList = () => {
   const handleDeleteMerchant = (id) => {
     ApiGateway.delete(
       `/payout/onboarding/properties/entity/${id}`,
+      {},
       function (response) {
         if (response.success) {
           applyToast(response.message, "success");
