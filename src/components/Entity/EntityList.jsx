@@ -128,7 +128,8 @@ const EntityList = () => {
             }).then(() => {
               updateState(userConstants.LOADER, { loading: false });
             });
-            setRecordLength(data.data.entities.length);
+            setRecordLength(data.entities.length);
+            return;
           } else {
             updateState(userConstants.LOADER, { loading: false });
             applyToast(response.message, "error");
@@ -394,10 +395,18 @@ const EntityList = () => {
   }, [payout_merchant.page, payout_merchant.filter]);
 
   const handleDeleteMerchant = (id) => {
-    if (!window.confirm("Are you sure you want to delete this merchant?"))
-      return;
-
-    // API call here
+    ApiGateway.delete(
+      `/payout/onboarding/properties/entity/${id}`,
+      function (response) {
+        if (response.success) {
+          applyToast(response.message, "success");
+          getEntityList(pageno);
+          handleDeleteCancel();
+        } else {
+          applyToast(response.message, "error");
+        }
+      }
+    );
   };
 
   const handleDeleteCancel = () => setDeletePopModel(false);
