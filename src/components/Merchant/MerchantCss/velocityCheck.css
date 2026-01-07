@@ -1,0 +1,20 @@
+/* @media (min-width: 1200px) and (max-width: 1799px) {
+    .col-lg-6 {
+        width: 50%; 
+      
+    }
+  } */
+
+  .payment-col {
+    min-width: 350px; /* adjust to your preferred size */
+  }
+
+  .payment-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .payment-cols {
+    min-width: 250px; /* adjust to your preferred size */
+  }

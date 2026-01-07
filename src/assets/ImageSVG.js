@@ -1,0 +1,17 @@
+export const PayoutsICon = () => {
+    return (
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" shapeRendering="geometricPrecision" height="24" viewBox="0 0 24 24"><defs><path id="adash" d="M0 0h24v24H0V0z"></path><mask id="bdash" width="24" height="24" x="0" y="0" fill="#fff"><use xlinkHref="#adash"></use></mask><path id="cdash" d="M19.096 18H5.106L5.106 7.038c0-.016-.01-.028-.01-.043l6.91-4.78 7.089 4.909L19.096 18zM23.57 7.79a1.001 1.001 0 0 1-1.14 1.645l-1.336-.926.002 10.49a.997.997 0 0 1-1 1H4.106a1 1 0 0 1-1-1L3.106 8.373 1.569 9.435A.999.999 0 0 1 .43 7.79L11.436.178a1.001 1.001 0 0 1 1.139 0L23.57 7.79zm-8.931 4.205H9.562a.457.457 0 0 0-.462.45v5.55h6v-5.55a.456.456 0 0 0-.461-.45zM9.035 8.04a1 1 0 0 0 1 1h4.03a1 1 0 1 0 0-2h-4.03a1 1 0 0 0-1 1z"></path></defs><g fill="none" fillRule="evenodd" transform="translate(0 2)"><mask id="ddash" fill="#fff"><use xlinkHref="#cdash"></use></mask><use fill="#536e92" xlinkHref="#cdash"></use><g fill="none" mask="url(#ddash)"><path d="M0-2h24v24H0z"></path></g></g></svg> 
+    );
+}
+
+export const AccountsIcon = () => {
+    return (
+        <svg xmlns="http://www.w3.org/2000/svg" shapeRendering="geometricPrecision" width="24" height="24" viewBox="0 0 24 24"><defs><path id="atransactionIcon" d="M0 0h24v24H0V0z"></path><mask id="btransactionIcon" width="24" height="24" x="0" y="0" fill="#fff"><use xlinkHref="#atransactionIcon"></use></mask><path id="ctransactionIcon" d="M6.26 11.667L2.291 7.689a1 1 0 0 1 0-1.412L6.26 2.295a.999.999 0 0 1 1.414-.003c.391.39.392 1.023.003 1.415L5.372 6.02H21a1 1 0 1 1 0 2H5.446l2.23 2.235a1 1 0 1 1-1.417 1.412zm11.482.664l3.966 3.977c.389.389.389 1.02.001 1.412l-3.967 3.983a.999.999 0 0 1-1.414.003 1.002 1.002 0 0 1-.003-1.415l2.304-2.313H3a1 1 0 1 1 0-2h15.555l-2.229-2.235a1 1 0 1 1 1.416-1.412z"></path></defs><g fill="none" fill-rule="evenodd"><mask id="dtransactionIcon" fill="#fff"><use xlinkHref="#ctransactionIcon"></use></mask><use fill="#536e92" xlinkHref="#ctransactionIcon"></use><g fill="none" mask="url(#dtransactionIcon)"><path d="M0 0h24v24H0z"></path></g></g></svg>
+    );
+}
+
+export const ContactsIcon = () => {
+    return (
+        <svg width="24px" height="24px" viewBox="0 0 24 24" shapeRendering="geometricPrecision" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><path id="amanageuser" d="M0 0h24v24H0V0z"></path><mask id="bmanageuser" width="24" height="24" x="0" y="0" fill="#fff"><use xlinkHref="#amanageuser"></use></mask><path id="cmanageuser" d="M8.03 8.942A3.94 3.94 0 0 1 11.96 5c2.166 0 3.928 1.768 3.928 3.942a3.939 3.939 0 0 1-3.928 3.941 3.94 3.94 0 0 1-3.93-3.941zM4.425 19.755a8.37 8.37 0 0 1 7.572-4.869c2.226 0 4.32.869 5.894 2.448a8.395 8.395 0 0 1 1.686 2.421H4.424zm17.54.738a10.333 10.333 0 0 0-6.295-6.923 5.935 5.935 0 0 0 2.219-4.628C17.888 5.666 15.228 3 11.96 3 8.69 3 6.03 5.666 6.03 8.942c0 1.883.882 3.56 2.249 4.649-2.988 1.163-5.362 3.68-6.243 6.901A.997.997 0 0 0 3 21.755h18a1 1 0 0 0 .965-1.262z"></path></defs><g fill="none" fill-rule="evenodd"><mask id="dmanageuser" fill="#fff"><use xlinkHref="#cmanageuser"></use></mask><use fill="#536e92" xlinkHref="#cmanageuser"></use><g fill="#none" mask="url(#dmanageuser)"><path d="M0 0h24v24H0z"></path></g></g></svg>
+    );
+}
